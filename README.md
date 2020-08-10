@@ -11,3 +11,7 @@ DeconCCN should be installed using pip by following the command below:
 `pip install DeconCCN`
 
 This may take a few minutes, which depends on the required packages.
+
+## 3.Demo
+
+We provide a demo here to illustrate how to run 
