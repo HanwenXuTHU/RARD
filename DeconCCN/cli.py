@@ -6,7 +6,7 @@ This is the main file for executing the cdn program.
 
 # imports
 import click
-from run_deconccn import deconvolution
+from DeconCCN.run_deconccn import deconvolution
 
 @click.group()
 @click.version_option('1.0.0')

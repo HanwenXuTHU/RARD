@@ -1,4 +1,4 @@
-from DeconCCN import DeconCCN
+from DeconCCN.DeconCCN import DeconCCN
 import pandas as pd
 import collections
 import numpy as np
@@ -36,6 +36,3 @@ def deconvolution(ref_path, mix_path, marker_path, save_path, unknown=False):
             prop[samples[i]].append(prop_predict[j, i])
     prop = pd.DataFrame(prop)
     prop.to_csv(save_path, index=False)
-
-
-deconvolution('Salas_simulation/ref.csv', 'Salas_simulation/mix.csv', 'Salas_simulation/markers.csv', 'Salas_simulation/prop_decon.csv')
