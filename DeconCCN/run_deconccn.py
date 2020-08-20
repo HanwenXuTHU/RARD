@@ -4,7 +4,7 @@ import collections
 import numpy as np
 
 
-def deconvolution(ref_path, mix_path, marker_path, save_path, unknown=False):
+def deconvolution(ref_path, mix_path, marker_path, save_path, unknown=False, scale=1):
     """
     deconvolution by DeconCCN
     :param ref_path: path to ref.csv, format should be same as the demo
@@ -29,7 +29,7 @@ def deconvolution(ref_path, mix_path, marker_path, save_path, unknown=False):
         mixture.append(mix.loc[markers[i]])
     reference = np.asarray(reference)
     mixture = np.asarray(mixture)
-    prop_predict = DeconCCN(reference, mixture, unknown=unknown)
+    prop_predict = DeconCCN(scale * reference, scale * mixture, unknown=unknown)
     for i in range(len(samples)):
         prop[samples[i]] = []
         for j in range(len(cell_type)):
