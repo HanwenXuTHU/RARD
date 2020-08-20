@@ -26,6 +26,6 @@ We provide a demo here to illustrate how to run
 
 `from DeconCCN.run_deconccn import deconvolution`
 
-`deconvolution('ref.csv', 'mix.csv', 'marker.csv', 'prop_predict.csv')`
+`deconvolution('ref.csv', 'mix.csv', 'marker.csv', 'prop_predict.csv', scale=0.01)`
 
 The results will be saved in prop_predict.csv.
