@@ -25,6 +25,7 @@ Data has been uploaded to the [demo_data](https://github.com/HanwenXuTHU/DeconCC
 We provide a demo here to illustrate how to run 
 
 `from DeconCCN.run_deconccn import deconvolution`
+
 `deconvolution('ref.csv', 'mix.csv', 'marker.csv', 'prop_predict.csv')`
 
 The results will be saved in prop_predict.csv.
