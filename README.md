@@ -1,31 +1,36 @@
-# DeconCCN:a cell subtype deconvolution algorithm based on component-wise condition number
+# DeconCCN: A cell subtype <u>Decon</u>volution algorithm based on <u>C</u>omponent-wise <u>C</u>ondition <u>N</u>umber
 
-## 1.System requirements
+## Section 1: System Requirements
+&emsp; DeconCCN was implemented using python. It can be installed in Windows, Linux as well as MAC OS. DeconCCN requires python version >= 3 and all the dependent packages will be installed using pip.
 
-We developed DeconCCN on Windows 10 platform. DeconCCN requires python3 and all the packages will be installed using pip.
+## Section 2: Installation Instruction
 
-## 2.Installation guide
+&emsp; DeconCCN can be installed using pip by the following command:
 
-DeconCCN should be installed using pip by following the command below:
+``` shell
+pip install DeconCCN
+```
 
-`pip install DeconCCN`
 
-This may take a few minutes, which depends on the required packages.
+## Section 3: How to Use DeconCCN
 
-## 3.Demo
+### Section 3.1: Input Data Preparation
 
-### 3.1 data
+&emsp; We provide demon [dataset](https://github.com/HanwenXuTHU/DeconCCN/tree/master/demo_data) generated from single cell mouse RNA-seq.
 
-Data used in the demo is the dataset we test as single cell mouse dataset.
+&emsp; Note: DeconCCN is not sensitive to gene identifier, but the user should restrict gene identifier to a specific one.
 
-Data has been uploaded to the [demo_data](https://github.com/HanwenXuTHU/DeconCCN/tree/master/demo_data) file.
 
-### 3.2 run the demo
+### Section 3.2: Deconvolution
 
-We provide a demo here to illustrate how to run 
+We provide a demo here to illustrate how to run DeconCCN
 
-`from DeconCCN.run_deconccn import deconvolution`
+``` Python
+from DeconCCN.run_deconccn import deconvolution
 
-`deconvolution('ref.csv', 'mix.csv', 'marker.csv', 'prop_predict.csv', scale=0.01)`
+deconvolution('ref.csv', 'mix.csv', 'marker.csv', 'prop_predict.csv', scale=0.01)
+```
 
 The results will be saved in prop_predict.csv.
+
+

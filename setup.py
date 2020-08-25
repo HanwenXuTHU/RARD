@@ -13,7 +13,7 @@ setup(
     name="DeconCCN",
     version="0.1.5",
     keywords=("pip", "DeconCCN"),
-    description="a cell subtype deconvolution algorithm based on component-wise condition number",
+    description="A cell subtype deconvolution algorithm based on component-wise condition number",
     long_description="a cell subtype deconvolution algorithm based on component-wise condition number",
     license="Hanwen",
 
