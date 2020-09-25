@@ -1,4 +1,4 @@
-from DeconCCN.DeconCCN import DeconCCN
+from AidaGo.DeconCCN import DeconCCN
 import pandas as pd
 import collections
 import numpy as np
