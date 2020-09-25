@@ -8,7 +8,7 @@
 &emsp; DeconCCN can be installed using pip by the following command:
 
 ``` shell
-pip install DeconCCN
+pip install AidaGo
 ```
 
 
@@ -16,7 +16,7 @@ pip install DeconCCN
 
 ### Section 3.1: Input Data Preparation
 
-&emsp; We provide demon [dataset](https://github.com/HanwenXuTHU/DeconCCN/tree/master/demo_data) generated from single cell mouse RNA-seq.
+&emsp; We provide demon [dataset](https://github.com/HanwenXuTHU/Aida/tree/master/demo_data) generated from single cell mouse RNA-seq.
 
 &emsp; Note: DeconCCN is not sensitive to gene identifier, but the user should restrict gene identifier to a specific one.
 
