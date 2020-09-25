@@ -1,7 +1,7 @@
-# DeconCCN: A cell subtype <u>Decon</u>volution algorithm based on <u>C</u>omponent-wise <u>C</u>ondition <u>N</u>umber
+# Aida: accurate inference of cell type fraction across various data sources
 
 ## Section 1: System Requirements
-&emsp; DeconCCN was implemented using python. It can be installed in Windows, Linux as well as MAC OS. DeconCCN requires python version >= 3 and all the dependent packages will be installed using pip.
+&emsp; Aida was implemented using python. It can be installed in Windows, Linux as well as MAC OS. DeconCCN requires python version >= 3 and all the dependent packages will be installed using pip.
 
 ## Section 2: Installation Instruction
 
@@ -12,7 +12,7 @@ pip install AidaGo
 ```
 
 
-## Section 3: How to Use DeconCCN
+## Section 3: How to Use Aida
 
 ### Section 3.1: Input Data Preparation
 
@@ -23,10 +23,10 @@ pip install AidaGo
 
 ### Section 3.2: Deconvolution
 
-We provide a demo here to illustrate how to run DeconCCN
+We provide a demo here to illustrate how to run Aida
 
 ``` Python
-from DeconCCN.run_deconccn import deconvolution
+from Aida.run_deconccn import deconvolution
 
 deconvolution('ref.csv', 'mix.csv', 'marker.csv', 'prop_predict.csv', scale=0.01)
 ```
