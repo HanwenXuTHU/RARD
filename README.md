@@ -26,7 +26,7 @@ pip install AidaGo
 We provide a demo here to illustrate how to run Aida
 
 ``` Python
-from Aida.run_deconccn import deconvolution
+from AidaGo.run_deconccn import deconvolution
 
 deconvolution('ref.csv', 'mix.csv', 'marker.csv', 'prop_predict.csv', scale=0.01)
 ```
