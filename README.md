@@ -5,7 +5,7 @@
 
 ## Section 2: Installation Instruction
 
-&emsp; DeconCCN can be installed using pip by the following command:
+&emsp; Aida can be installed using pip by the following command:
 
 ``` shell
 pip install AidaGo
@@ -18,7 +18,7 @@ pip install AidaGo
 
 &emsp; We provide demon [dataset](https://github.com/HanwenXuTHU/Aida/tree/master/demo_data) generated from single cell mouse RNA-seq.
 
-&emsp; Note: DeconCCN is not sensitive to gene identifier, but the user should restrict gene identifier to a specific one.
+&emsp; Note: Aida is not sensitive to gene identifier, but the user should restrict gene identifier to a specific one.
 
 
 ### Section 3.2: Deconvolution
