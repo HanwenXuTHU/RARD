@@ -1,6 +1,6 @@
 # RARED: Robust and accurate rare cell type de-convolution for gene expression and DNA methylation data
 
-![Image text](https://github.com/HanwenXuTHU/RARD/edit/master/img/decon.jpg)
+![Image text](https://github.com/HanwenXuTHU/RARD/tree/master/img/decon.png)
 
 ## Section 1: System Requirements
 &emsp; RARD was implemented using python. It can be installed in Windows, Linux as well as MAC OS. RARD requires python version >= 3 and all the dependent packages will be installed using pip.
