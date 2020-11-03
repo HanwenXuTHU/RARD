@@ -1,4 +1,4 @@
-# RARED: Robust and accurate rare cell type de-convolution for gene expression and DNA methylation data
+# RARD: Robust and accurate rare cell type de-convolution for gene expression and DNA methylation data
 
 ![Image](https://github.com/HanwenXuTHU/RARD/blob/master/img/decon.png)
 
