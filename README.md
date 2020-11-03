@@ -1,32 +1,32 @@
-# Aida: accurate inference of cell type fraction across various data sources
+# RARED: Robust and accurate rare cell type de-convolution for gene expression and DNA methylation data
 
 ## Section 1: System Requirements
-&emsp; Aida was implemented using python. It can be installed in Windows, Linux as well as MAC OS. DeconCCN requires python version >= 3 and all the dependent packages will be installed using pip.
+&emsp; RARD was implemented using python. It can be installed in Windows, Linux as well as MAC OS. RARD requires python version >= 3 and all the dependent packages will be installed using pip.
 
 ## Section 2: Installation Instruction
 
-&emsp; Aida can be installed using pip by the following command:
+&emsp; RARD can be installed using pip by the following command:
 
 ``` shell
-pip install AidaGo
+pip install RARD
 ```
 
 
-## Section 3: How to Use Aida
+## Section 3: How to Use RARD
 
 ### Section 3.1: Input Data Preparation
 
-&emsp; We provide demon [dataset](https://github.com/HanwenXuTHU/Aida/tree/master/demo_data) generated from single cell mouse RNA-seq.
+&emsp; We provide demon [dataset](https://github.com/HanwenXuTHU/RARD/tree/master/demo_data) generated from single cell mouse RNA-seq.
 
-&emsp; Note: Aida is not sensitive to gene identifier, but the user should restrict gene identifier to a specific one.
+&emsp; Note: RARD is not sensitive to gene identifier, but the user should restrict gene identifier to a specific one.
 
 
 ### Section 3.2: Deconvolution
 
-We provide a demo here to illustrate how to run Aida
+We provide a demo here to illustrate how to run RARD
 
 ``` Python
-from AidaGo.run_deconccn import deconvolution
+from RARD.run_deconRARD import deconvolution
 
 deconvolution('ref.csv', 'mix.csv', 'marker.csv', 'prop_predict.csv', scale=0.01)
 ```
